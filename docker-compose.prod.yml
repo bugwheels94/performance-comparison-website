@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  talknonymous:
+    command: npm run server
+  nginx:
+    volumes:
+     - /docker-volumes/etc/letsencrypt/:/etc/certificate
+    ports:
+      - 443:443
+      - 80:80

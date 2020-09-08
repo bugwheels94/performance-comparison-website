@@ -1,0 +1,28 @@
+version: '3.1'
+services:
+  analytics-server: 
+    image: 127.0.0.1:5000/analytics-server
+    build:
+      context: analytics-server
+      dockerfile: ./Dockerfile
+  survey:
+    image: 127.0.0.1:5000/survey
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: tail -F anything
+  nginx:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.nginx
+    depends_on:
+      - survey
+  mongo:
+    image: "mvertes/alpine-mongo"
+    ports:
+      - 27016:27017
+  neo4j:
+    image: "neo4j:4.0.4"
+    ports: 
+      - 7474:7474
+      - 7687:7687      

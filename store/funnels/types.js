@@ -1,0 +1,6 @@
+export default {
+	SET_ID: 'FUNNEL__SET_ID',
+	SET_FILTER: 'FUNNEL__SET_FILTER',
+	GET_ALL: 'FUNNEL__GET_ALL',
+	CREATE: 'FUNNEL__CREATE',
+};

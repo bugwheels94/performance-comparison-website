@@ -1,0 +1,278 @@
+Date : 2020-07-04 04:20:34
+Directory : /Users/ankit.gautam/rhba
+Total : 168 files,  20650 codes, 441 comments, 579 blanks, all 21670 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          4 |     12,064 |         52 |          1 |     12,117 |
+| JavaScript       |        108 |      5,793 |        318 |        373 |      6,484 |
+| JavaScript React |         28 |      1,926 |         31 |        122 |      2,079 |
+| Go               |         10 |        459 |         32 |         54 |        545 |
+| Properties       |          3 |        167 |          6 |          7 |        180 |
+| SCSS             |          4 |         75 |          0 |          3 |         78 |
+| YAML             |          4 |         71 |          0 |          0 |         71 |
+| HTML             |          3 |         55 |          1 |          9 |         65 |
+| XML              |          1 |         20 |          0 |          3 |         23 |
+| Dockerfile       |          2 |         18 |          0 |          5 |         23 |
+| Shell Script     |          1 |          2 |          1 |          2 |          5 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                   |        168 |     20,650 |        441 |        579 |     21,670 |
+| analytics-server                                                                                    |         12 |        492 |         32 |         60 |        584 |
+| analytics-server/auth                                                                               |          1 |        189 |         25 |         15 |        229 |
+| analytics-server/model                                                                              |          3 |         18 |          3 |          7 |         28 |
+| analytics-server/routes                                                                             |          1 |         36 |          1 |          7 |         44 |
+| analytics-server/utils                                                                              |          4 |        197 |          2 |         16 |        215 |
+| api                                                                                                 |         22 |      1,025 |          0 |         43 |      1,068 |
+| api/funnels                                                                                         |          3 |        158 |          0 |          9 |        167 |
+| api/projects                                                                                        |          5 |        201 |          0 |         10 |        211 |
+| api/recordings                                                                                      |          5 |        313 |          0 |         12 |        325 |
+| api/recordings/settings                                                                             |          2 |        142 |          0 |          5 |        147 |
+| api/recordings/tracks                                                                               |          2 |         99 |          0 |          4 |        103 |
+| api/teamMembers                                                                                     |          4 |        183 |          0 |          6 |        189 |
+| api/teams                                                                                           |          5 |        170 |          0 |          6 |        176 |
+| embed                                                                                               |          9 |      3,217 |        289 |        125 |      3,631 |
+| embed/public                                                                                        |          3 |      3,086 |        286 |        115 |      3,487 |
+| embed/public/js                                                                                     |          3 |      3,086 |        286 |        115 |      3,487 |
+| embed/src                                                                                           |          3 |         58 |          3 |          6 |         67 |
+| pages                                                                                               |         36 |        511 |         12 |         91 |        614 |
+| pages/[team]                                                                                        |         10 |         20 |          0 |         20 |         40 |
+| pages/[team]/[project]                                                                              |          7 |         14 |          0 |         14 |         28 |
+| pages/[team]/[project]/funnels                                                                      |          2 |          4 |          0 |          4 |          8 |
+| pages/[team]/[project]/recordings                                                                   |          3 |          6 |          0 |          6 |         12 |
+| pages/[team]/[project]/recordings/[recordingID]                                                     |          1 |          2 |          0 |          2 |          4 |
+| pages/[team]/[project]/tracks                                                                       |          1 |          2 |          0 |          2 |          4 |
+| pages/[team]/[project]/tracks/[track]                                                               |          1 |          2 |          0 |          2 |          4 |
+| pages/api                                                                                           |         19 |        437 |         11 |         57 |        505 |
+| pages/api/google                                                                                    |          2 |        105 |          8 |         15 |        128 |
+| pages/api/static                                                                                    |          1 |         92 |          1 |          4 |         97 |
+| pages/api/teams                                                                                     |         12 |        150 |          0 |         28 |        178 |
+| pages/api/teams/[team]                                                                              |         11 |        140 |          0 |         27 |        167 |
+| pages/api/teams/[team]/members                                                                      |          2 |         26 |          0 |          5 |         31 |
+| pages/api/teams/[team]/projects                                                                     |          8 |         98 |          0 |         20 |        118 |
+| pages/api/teams/[team]/projects/[project]                                                           |          7 |         85 |          0 |         18 |        103 |
+| pages/api/teams/[team]/projects/[project]/funnels                                                   |          2 |         26 |          0 |          4 |         30 |
+| pages/api/teams/[team]/projects/[project]/recordings                                                |          3 |         33 |          0 |          9 |         42 |
+| pages/api/teams/[team]/projects/[project]/recordings/[recording]                                    |          1 |         10 |          0 |          3 |         13 |
+| pages/api/teams/[team]/projects/[project]/tracks                                                    |          1 |         10 |          0 |          3 |         13 |
+| pages/api/users                                                                                     |          3 |         69 |          1 |          6 |         76 |
+| pages/dashboard                                                                                     |          3 |          6 |          0 |          6 |         12 |
+| sass                                                                                                |          2 |         10 |          0 |          0 |         10 |
+| scene                                                                                               |         36 |      2,231 |         31 |        143 |      2,405 |
+| scene/comps                                                                                         |          6 |        172 |          0 |         18 |        190 |
+| scene/comps/dashboardSidebar                                                                        |          1 |         23 |          0 |          3 |         26 |
+| scene/comps/header                                                                                  |          2 |         74 |          0 |          5 |         79 |
+| scene/comps/layout                                                                                  |          1 |         15 |          0 |          4 |         19 |
+| scene/comps/sidebar                                                                                 |          2 |         60 |          0 |          6 |         66 |
+| scene/dashboard                                                                                     |          6 |        426 |          3 |         24 |        453 |
+| scene/dashboard/comps                                                                               |          3 |        163 |          0 |          8 |        171 |
+| scene/dashboard/comps/CreateProject                                                                 |          1 |         85 |          0 |          3 |         88 |
+| scene/dashboard/comps/CreateTeam                                                                    |          1 |         54 |          0 |          2 |         56 |
+| scene/dashboard/comps/sidebar                                                                       |          1 |         24 |          0 |          3 |         27 |
+| scene/funnels                                                                                       |          5 |        338 |          8 |         18 |        364 |
+| scene/funnels/comps                                                                                 |          3 |        172 |          6 |          5 |        183 |
+| scene/projects                                                                                      |          2 |         99 |          0 |         10 |        109 |
+| scene/projects/comps                                                                                |          1 |         34 |          0 |          4 |         38 |
+| scene/projects/comps/sidebar                                                                        |          1 |         34 |          0 |          4 |         38 |
+| scene/recordings                                                                                    |          9 |        672 |         18 |         41 |        731 |
+| scene/recordings/comps                                                                              |          5 |        308 |         14 |          8 |        330 |
+| scene/teams                                                                                         |          8 |        524 |          2 |         32 |        558 |
+| scene/teams/comps                                                                                   |          5 |        252 |          0 |         14 |        266 |
+| scene/teams/comps/AddMember                                                                         |          1 |         68 |          0 |          3 |         71 |
+| scene/teams/comps/DeleteTeam                                                                        |          1 |         51 |          0 |          4 |         55 |
+| scene/teams/comps/ManageMember                                                                      |          1 |         49 |          0 |          2 |         51 |
+| scene/teams/comps/RenameTeam                                                                        |          1 |         55 |          0 |          2 |         57 |
+| scene/teams/comps/sidebar                                                                           |          1 |         29 |          0 |          3 |         32 |
+| store                                                                                               |         25 |        559 |          4 |         58 |        621 |
+| store/funnels                                                                                       |          5 |         79 |          1 |         11 |         91 |
+| store/projects                                                                                      |          5 |         80 |          1 |         11 |         92 |
+| store/recordings                                                                                    |          5 |         87 |          1 |         11 |         99 |
+| store/teams                                                                                         |          5 |        252 |          0 |         14 |        266 |
+| store/tracks                                                                                        |          5 |         61 |          1 |         11 |         73 |
+| sysadmin                                                                                            |          4 |        181 |          6 |          7 |        194 |
+| sysadmin/letsencrypt-site                                                                           |          1 |         14 |          0 |          0 |         14 |
+| sysadmin/nginx                                                                                      |          3 |        167 |          6 |          7 |        180 |
+| test-server                                                                                         |          2 |         41 |          1 |          9 |         51 |
+| utils                                                                                               |          7 |        170 |         12 |         32 |        214 |
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                            | language         | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /Users/ankit.gautam/rhba/.eslintrc.js                                                               | JavaScript       |         40 |          0 |          1 |         41 |
+| /Users/ankit.gautam/rhba/Dockerfile                                                                 | Dockerfile       |          5 |          0 |          2 |          7 |
+| /Users/ankit.gautam/rhba/analytics-server/Dockerfile                                                | Dockerfile       |         13 |          0 |          3 |         16 |
+| /Users/ankit.gautam/rhba/analytics-server/auth/register.go                                          | Go               |        189 |         25 |         15 |        229 |
+| /Users/ankit.gautam/rhba/analytics-server/go.mod                                                    | XML              |         20 |          0 |          3 |         23 |
+| /Users/ankit.gautam/rhba/analytics-server/main.go                                                   | Go               |         19 |          1 |          9 |         29 |
+| /Users/ankit.gautam/rhba/analytics-server/model/browser.go                                          | Go               |          7 |          1 |          2 |         10 |
+| /Users/ankit.gautam/rhba/analytics-server/model/recordingPages.go                                   | Go               |          7 |          1 |          3 |         11 |
+| /Users/ankit.gautam/rhba/analytics-server/model/recordingTrack.go                                   | Go               |          4 |          1 |          2 |          7 |
+| /Users/ankit.gautam/rhba/analytics-server/routes/tracks.go                                          | Go               |         36 |          1 |          7 |         44 |
+| /Users/ankit.gautam/rhba/analytics-server/utils/geoip.go                                            | Go               |         18 |          0 |          1 |         19 |
+| /Users/ankit.gautam/rhba/analytics-server/utils/getBrowser.go                                       | Go               |          6 |          0 |          3 |          9 |
+| /Users/ankit.gautam/rhba/analytics-server/utils/mongo.go                                            | Go               |         54 |          1 |          6 |         61 |
+| /Users/ankit.gautam/rhba/analytics-server/utils/os.go                                               | Go               |        119 |          1 |          6 |        126 |
+| /Users/ankit.gautam/rhba/api/funnels/create.js                                                      | JavaScript       |         74 |          0 |          3 |         77 |
+| /Users/ankit.gautam/rhba/api/funnels/delete.js                                                      | JavaScript       |         46 |          0 |          3 |         49 |
+| /Users/ankit.gautam/rhba/api/funnels/readList.js                                                    | JavaScript       |         38 |          0 |          3 |         41 |
+| /Users/ankit.gautam/rhba/api/projects/create.js                                                     | JavaScript       |         64 |          0 |          2 |         66 |
+| /Users/ankit.gautam/rhba/api/projects/delete.js                                                     | JavaScript       |         36 |          0 |          2 |         38 |
+| /Users/ankit.gautam/rhba/api/projects/head.js                                                       | JavaScript       |         36 |          0 |          2 |         38 |
+| /Users/ankit.gautam/rhba/api/projects/read.js                                                       | JavaScript       |         36 |          0 |          2 |         38 |
+| /Users/ankit.gautam/rhba/api/projects/readList.js                                                   | JavaScript       |         29 |          0 |          2 |         31 |
+| /Users/ankit.gautam/rhba/api/recordings/read.js                                                     | JavaScript       |         72 |          0 |          3 |         75 |
+| /Users/ankit.gautam/rhba/api/recordings/settings/put.js                                             | JavaScript       |        106 |          0 |          3 |        109 |
+| /Users/ankit.gautam/rhba/api/recordings/settings/read.js                                            | JavaScript       |         36 |          0 |          2 |         38 |
+| /Users/ankit.gautam/rhba/api/recordings/tracks/read.js                                              | JavaScript       |         24 |          0 |          2 |         26 |
+| /Users/ankit.gautam/rhba/api/recordings/tracks/readList.js                                          | JavaScript       |         75 |          0 |          2 |         77 |
+| /Users/ankit.gautam/rhba/api/teamMembers/create.js                                                  | JavaScript       |         49 |          0 |          2 |         51 |
+| /Users/ankit.gautam/rhba/api/teamMembers/delete.js                                                  | JavaScript       |         32 |          0 |          1 |         33 |
+| /Users/ankit.gautam/rhba/api/teamMembers/patchAccess.js                                             | JavaScript       |         48 |          0 |          2 |         50 |
+| /Users/ankit.gautam/rhba/api/teamMembers/read.js                                                    | JavaScript       |         54 |          0 |          1 |         55 |
+| /Users/ankit.gautam/rhba/api/teams/create.js                                                        | JavaScript       |         33 |          0 |          2 |         35 |
+| /Users/ankit.gautam/rhba/api/teams/delete.js                                                        | JavaScript       |         29 |          0 |          0 |         29 |
+| /Users/ankit.gautam/rhba/api/teams/head.js                                                          | JavaScript       |         29 |          0 |          1 |         30 |
+| /Users/ankit.gautam/rhba/api/teams/readList.js                                                      | JavaScript       |         37 |          0 |          2 |         39 |
+| /Users/ankit.gautam/rhba/api/teams/rename.js                                                        | JavaScript       |         42 |          0 |          1 |         43 |
+| /Users/ankit.gautam/rhba/config.index.json                                                          | JSON             |          9 |          0 |          0 |          9 |
+| /Users/ankit.gautam/rhba/config.json                                                                | JSON             |          3 |          0 |          0 |          3 |
+| /Users/ankit.gautam/rhba/docker-compose.dev.yml                                                     | YAML             |         22 |          0 |          0 |         22 |
+| /Users/ankit.gautam/rhba/docker-compose.prod.yml                                                    | YAML             |         10 |          0 |          0 |         10 |
+| /Users/ankit.gautam/rhba/docker-compose.yml                                                         | YAML             |         28 |          0 |          0 |         28 |
+| /Users/ankit.gautam/rhba/docker.letsencrypt.yml                                                     | YAML             |         11 |          0 |          0 |         11 |
+| /Users/ankit.gautam/rhba/embed/public/js/funnels.js                                                 | JavaScript       |         74 |         22 |          5 |        101 |
+| /Users/ankit.gautam/rhba/embed/public/js/loaders.js                                                 | JavaScript       |        106 |         22 |          7 |        135 |
+| /Users/ankit.gautam/rhba/embed/public/js/recordings.js                                              | JavaScript       |      2,906 |        242 |        103 |      3,251 |
+| /Users/ankit.gautam/rhba/embed/src/funnels.js                                                       | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/ankit.gautam/rhba/embed/src/loader.js                                                        | JavaScript       |         29 |          0 |          2 |         31 |
+| /Users/ankit.gautam/rhba/embed/src/recordings.js                                                    | JavaScript       |         29 |          3 |          3 |         35 |
+| /Users/ankit.gautam/rhba/embed/wp.common.js                                                         | JavaScript       |         31 |          0 |          1 |         32 |
+| /Users/ankit.gautam/rhba/embed/wp.dev.js                                                            | JavaScript       |         19 |          0 |          1 |         20 |
+| /Users/ankit.gautam/rhba/embed/wp.prod.js                                                           | JavaScript       |         23 |          0 |          2 |         25 |
+| /Users/ankit.gautam/rhba/next.config.js                                                             | JavaScript       |         16 |          0 |          1 |         17 |
+| /Users/ankit.gautam/rhba/package-lock.json                                                          | JSON             |     12,041 |          0 |          1 |     12,042 |
+| /Users/ankit.gautam/rhba/package.json                                                               | JSON             |         11 |         52 |          0 |         63 |
+| /Users/ankit.gautam/rhba/pages/[team]/[project]/funnels/index.js                                    | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/[project]/funnels/new.js                                      | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/[project]/index.js                                            | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/[project]/recordings/[recordingID]/tracks.js                  | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/[project]/recordings/index.js                                 | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/[project]/recordings/settings.js                              | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/[project]/tracks/[track]/index.js                             | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/index.js                                                      | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/members.js                                                    | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/[team]/settings.js                                                   | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/_app.js                                                              | JavaScript       |         20 |          1 |          3 |         24 |
+| /Users/ankit.gautam/rhba/pages/_document.js                                                         | JavaScript       |         24 |          0 |          3 |         27 |
+| /Users/ankit.gautam/rhba/pages/api/google/callback.js                                               | JavaScript       |         86 |          4 |          8 |         98 |
+| /Users/ankit.gautam/rhba/pages/api/google/index.js                                                  | JavaScript       |         19 |          4 |          7 |         30 |
+| /Users/ankit.gautam/rhba/pages/api/login.js                                                         | JavaScript       |         21 |          1 |          4 |         26 |
+| /Users/ankit.gautam/rhba/pages/api/static/[project].js                                              | JavaScript       |         92 |          1 |          4 |         97 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/index.js                                            | JavaScript       |         16 |          0 |          2 |         18 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/members/[member].js                                 | JavaScript       |         13 |          0 |          2 |         15 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/members/index.js                                    | JavaScript       |         13 |          0 |          3 |         16 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/[project]/funnels/[funnel].js              | JavaScript       |         10 |          0 |          2 |         12 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/[project]/funnels/index.js                 | JavaScript       |         16 |          0 |          2 |         18 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/[project]/index.js                         | JavaScript       |         16 |          0 |          2 |         18 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/[project]/recordings/[recording]/tracks.js | JavaScript       |         10 |          0 |          3 |         13 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/[project]/recordings/index.js              | JavaScript       |         10 |          0 |          1 |         11 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/[project]/recordings/settings.js           | JavaScript       |         13 |          0 |          5 |         18 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/[project]/tracks/[track].js                | JavaScript       |         10 |          0 |          3 |         13 |
+| /Users/ankit.gautam/rhba/pages/api/teams/[team]/projects/index.js                                   | JavaScript       |         13 |          0 |          2 |         15 |
+| /Users/ankit.gautam/rhba/pages/api/teams/index.js                                                   | JavaScript       |         10 |          0 |          1 |         11 |
+| /Users/ankit.gautam/rhba/pages/api/users/current.js                                                 | JavaScript       |         25 |          0 |          2 |         27 |
+| /Users/ankit.gautam/rhba/pages/api/users/projects.js                                                | JavaScript       |         34 |          1 |          2 |         37 |
+| /Users/ankit.gautam/rhba/pages/api/users/teams.js                                                   | JavaScript       |         10 |          0 |          2 |         12 |
+| /Users/ankit.gautam/rhba/pages/dashboard/new.js                                                     | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/dashboard/overview.js                                                | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/dashboard/teams.js                                                   | JavaScript       |          2 |          0 |          2 |          4 |
+| /Users/ankit.gautam/rhba/pages/index.js                                                             | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/ankit.gautam/rhba/pages/login.js                                                             | JavaScript       |          4 |          0 |          1 |          5 |
+| /Users/ankit.gautam/rhba/sass/colors.scss                                                           | SCSS             |          4 |          0 |          0 |          4 |
+| /Users/ankit.gautam/rhba/sass/global.scss                                                           | SCSS             |          6 |          0 |          0 |          6 |
+| /Users/ankit.gautam/rhba/scene/comps/dashboardSidebar/index.jsx                                     | JavaScript React |         23 |          0 |          3 |         26 |
+| /Users/ankit.gautam/rhba/scene/comps/header/index.js                                                | JavaScript       |         49 |          0 |          4 |         53 |
+| /Users/ankit.gautam/rhba/scene/comps/header/index.scss                                              | SCSS             |         25 |          0 |          1 |         26 |
+| /Users/ankit.gautam/rhba/scene/comps/layout/index.jsx                                               | JavaScript React |         15 |          0 |          4 |         19 |
+| /Users/ankit.gautam/rhba/scene/comps/sidebar/index.jsx                                              | JavaScript React |         20 |          0 |          4 |         24 |
+| /Users/ankit.gautam/rhba/scene/comps/sidebar/index.scss                                             | SCSS             |         40 |          0 |          2 |         42 |
+| /Users/ankit.gautam/rhba/scene/dashboard/comps/CreateProject/index.jsx                              | JavaScript React |         85 |          0 |          3 |         88 |
+| /Users/ankit.gautam/rhba/scene/dashboard/comps/CreateTeam/index.jsx                                 | JavaScript React |         54 |          0 |          2 |         56 |
+| /Users/ankit.gautam/rhba/scene/dashboard/comps/sidebar/index.js                                     | JavaScript       |         24 |          0 |          3 |         27 |
+| /Users/ankit.gautam/rhba/scene/dashboard/new.jsx                                                    | JavaScript React |         82 |          1 |          5 |         88 |
+| /Users/ankit.gautam/rhba/scene/dashboard/overview.jsx                                               | JavaScript React |         97 |          1 |          5 |        103 |
+| /Users/ankit.gautam/rhba/scene/dashboard/teams.jsx                                                  | JavaScript React |         84 |          1 |          6 |         91 |
+| /Users/ankit.gautam/rhba/scene/funnels/comps/create.jsx                                             | JavaScript React |         37 |          0 |          2 |         39 |
+| /Users/ankit.gautam/rhba/scene/funnels/comps/form-url.jsx                                           | JavaScript React |         95 |          3 |          2 |        100 |
+| /Users/ankit.gautam/rhba/scene/funnels/comps/funnels.jsx                                            | JavaScript React |         40 |          3 |          1 |         44 |
+| /Users/ankit.gautam/rhba/scene/funnels/create.jsx                                                   | JavaScript React |         78 |          1 |          4 |         83 |
+| /Users/ankit.gautam/rhba/scene/funnels/funnels.jsx                                                  | JavaScript React |         88 |          1 |          9 |         98 |
+| /Users/ankit.gautam/rhba/scene/projects/comps/sidebar/index.js                                      | JavaScript       |         34 |          0 |          4 |         38 |
+| /Users/ankit.gautam/rhba/scene/projects/summary.jsx                                                 | JavaScript React |         65 |          0 |          6 |         71 |
+| /Users/ankit.gautam/rhba/scene/recordings/comps/edit.jsx                                            | JavaScript React |         83 |          0 |          3 |         86 |
+| /Users/ankit.gautam/rhba/scene/recordings/comps/form-url.jsx                                        | JavaScript React |         99 |          3 |          2 |        104 |
+| /Users/ankit.gautam/rhba/scene/recordings/comps/recordings.jsx                                      | JavaScript React |         44 |          3 |          1 |         48 |
+| /Users/ankit.gautam/rhba/scene/recordings/comps/track.jsx                                           | JavaScript React |         24 |          5 |          1 |         30 |
+| /Users/ankit.gautam/rhba/scene/recordings/comps/tracks.jsx                                          | JavaScript React |         58 |          3 |          1 |         62 |
+| /Users/ankit.gautam/rhba/scene/recordings/recordings.jsx                                            | JavaScript React |        123 |          1 |          8 |        132 |
+| /Users/ankit.gautam/rhba/scene/recordings/settings.jsx                                              | JavaScript React |         81 |          1 |          9 |         91 |
+| /Users/ankit.gautam/rhba/scene/recordings/track.jsx                                                 | JavaScript React |         73 |          1 |          8 |         82 |
+| /Users/ankit.gautam/rhba/scene/recordings/tracks.jsx                                                | JavaScript React |         87 |          1 |          8 |         96 |
+| /Users/ankit.gautam/rhba/scene/teams/comps/AddMember/index.jsx                                      | JavaScript React |         68 |          0 |          3 |         71 |
+| /Users/ankit.gautam/rhba/scene/teams/comps/DeleteTeam/index.jsx                                     | JavaScript React |         51 |          0 |          4 |         55 |
+| /Users/ankit.gautam/rhba/scene/teams/comps/ManageMember/index.js                                    | JavaScript       |         49 |          0 |          2 |         51 |
+| /Users/ankit.gautam/rhba/scene/teams/comps/RenameTeam/index.js                                      | JavaScript       |         55 |          0 |          2 |         57 |
+| /Users/ankit.gautam/rhba/scene/teams/comps/sidebar/index.js                                         | JavaScript       |         29 |          0 |          3 |         32 |
+| /Users/ankit.gautam/rhba/scene/teams/members.jsx                                                    | JavaScript React |        107 |          1 |          8 |        116 |
+| /Users/ankit.gautam/rhba/scene/teams/projects.jsx                                                   | JavaScript React |         76 |          1 |          6 |         83 |
+| /Users/ankit.gautam/rhba/scene/teams/settings.jsx                                                   | JavaScript React |         89 |          0 |          4 |         93 |
+| /Users/ankit.gautam/rhba/start.sh                                                                   | Shell Script     |          2 |          1 |          2 |          5 |
+| /Users/ankit.gautam/rhba/store.js                                                                   | JavaScript       |         15 |          1 |          4 |         20 |
+| /Users/ankit.gautam/rhba/store/funnels/actions.js                                                   | JavaScript       |         11 |          0 |          2 |         13 |
+| /Users/ankit.gautam/rhba/store/funnels/index.js                                                     | JavaScript       |          4 |          0 |          2 |          6 |
+| /Users/ankit.gautam/rhba/store/funnels/operations.js                                                | JavaScript       |         33 |          0 |          4 |         37 |
+| /Users/ankit.gautam/rhba/store/funnels/reducer.js                                                   | JavaScript       |         25 |          1 |          2 |         28 |
+| /Users/ankit.gautam/rhba/store/funnels/types.js                                                     | JavaScript       |          6 |          0 |          1 |          7 |
+| /Users/ankit.gautam/rhba/store/projects/actions.js                                                  | JavaScript       |          7 |          0 |          3 |         10 |
+| /Users/ankit.gautam/rhba/store/projects/index.js                                                    | JavaScript       |          4 |          0 |          2 |          6 |
+| /Users/ankit.gautam/rhba/store/projects/operations.js                                               | JavaScript       |         37 |          0 |          4 |         41 |
+| /Users/ankit.gautam/rhba/store/projects/reducer.js                                                  | JavaScript       |         27 |          1 |          1 |         29 |
+| /Users/ankit.gautam/rhba/store/projects/types.js                                                    | JavaScript       |          5 |          0 |          1 |          6 |
+| /Users/ankit.gautam/rhba/store/recordings/actions.js                                                | JavaScript       |         11 |          0 |          2 |         13 |
+| /Users/ankit.gautam/rhba/store/recordings/index.js                                                  | JavaScript       |          4 |          0 |          2 |          6 |
+| /Users/ankit.gautam/rhba/store/recordings/operations.js                                             | JavaScript       |         39 |          0 |          4 |         43 |
+| /Users/ankit.gautam/rhba/store/recordings/reducer.js                                                | JavaScript       |         26 |          1 |          2 |         29 |
+| /Users/ankit.gautam/rhba/store/recordings/types.js                                                  | JavaScript       |          7 |          0 |          1 |          8 |
+| /Users/ankit.gautam/rhba/store/teams/actions.js                                                     | JavaScript       |          7 |          0 |          3 |         10 |
+| /Users/ankit.gautam/rhba/store/teams/index.js                                                       | JavaScript       |          4 |          0 |          2 |          6 |
+| /Users/ankit.gautam/rhba/store/teams/operations.js                                                  | JavaScript       |        113 |          0 |          3 |        116 |
+| /Users/ankit.gautam/rhba/store/teams/reducer.js                                                     | JavaScript       |        115 |          0 |          5 |        120 |
+| /Users/ankit.gautam/rhba/store/teams/types.js                                                       | JavaScript       |         13 |          0 |          1 |         14 |
+| /Users/ankit.gautam/rhba/store/tracks/actions.js                                                    | JavaScript       |          7 |          0 |          2 |          9 |
+| /Users/ankit.gautam/rhba/store/tracks/index.js                                                      | JavaScript       |          4 |          0 |          2 |          6 |
+| /Users/ankit.gautam/rhba/store/tracks/operations.js                                                 | JavaScript       |         26 |          0 |          4 |         30 |
+| /Users/ankit.gautam/rhba/store/tracks/reducer.js                                                    | JavaScript       |         19 |          1 |          2 |         22 |
+| /Users/ankit.gautam/rhba/store/tracks/types.js                                                      | JavaScript       |          5 |          0 |          1 |          6 |
+| /Users/ankit.gautam/rhba/sysadmin/letsencrypt-site/index.html                                       | HTML             |         14 |          0 |          0 |         14 |
+| /Users/ankit.gautam/rhba/sysadmin/nginx/letsencrypt.conf                                            | Properties       |         11 |          0 |          1 |         12 |
+| /Users/ankit.gautam/rhba/sysadmin/nginx/nginx.dev.conf                                              | Properties       |        100 |          6 |          2 |        108 |
+| /Users/ankit.gautam/rhba/sysadmin/nginx/nginx.prod.conf                                             | Properties       |         56 |          0 |          4 |         60 |
+| /Users/ankit.gautam/rhba/test-server/index.html                                                     | HTML             |         25 |          1 |          5 |         31 |
+| /Users/ankit.gautam/rhba/test-server/replay.html                                                    | HTML             |         16 |          0 |          4 |         20 |
+| /Users/ankit.gautam/rhba/utils/asyncRedux.js                                                        | JavaScript       |         52 |          0 |          1 |         53 |
+| /Users/ankit.gautam/rhba/utils/auth.js                                                              | JavaScript       |         12 |          0 |          4 |         16 |
+| /Users/ankit.gautam/rhba/utils/db.js                                                                | JavaScript       |         25 |          7 |          8 |         40 |
+| /Users/ankit.gautam/rhba/utils/error.js                                                             | JavaScript       |         13 |          0 |          3 |         16 |
+| /Users/ankit.gautam/rhba/utils/fetch.js                                                             | JavaScript       |         25 |          0 |          2 |         27 |
+| /Users/ankit.gautam/rhba/utils/get-host.js                                                          | JavaScript       |          9 |          0 |          4 |         13 |
+| /Users/ankit.gautam/rhba/utils/with-redux-store.js                                                  | JavaScript       |         34 |          5 |         10 |         49 |
+| Total                                                                                               |                  |     20,650 |        441 |        579 |     21,670 |
++-----------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

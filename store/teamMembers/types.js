@@ -1,0 +1,6 @@
+export default {
+	CREATE: 'MEMBER__CREATE',
+	GET_ALL: 'MEMBER__GET_ALL',
+	UPDATE: 'MEMBER__UPDATE',
+	REMOVE: 'MEMBER__REMOVE',
+};

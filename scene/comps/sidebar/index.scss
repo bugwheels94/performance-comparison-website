@@ -1,0 +1,42 @@
+@import '../../../sass/colors.scss';
+.sidebar {
+	background: $colorDarkest;
+	padding: 15px 0 0 0;
+
+	font-size: 14px;
+	&_txt {
+		padding-left: 7px;
+	}
+	&_icon {
+		margin: 0 auto;
+	}
+	&_opt {
+		&, &:hover {
+			display: block;
+			color: #FFF;
+			text-decoration: none;		
+		}
+		&-top {
+			margin-bottom: 10px;
+		}
+		&-btm {
+			margin-top: 10px;
+		}
+		&-active {
+			background: $colorLightest;
+			color: #000;
+		}
+		cursor: pointer;
+		padding: 10px 15px;
+		transition: background-color 0.1s ease;
+		&:hover {
+			background: $colorLighter;
+			color: black;
+		}
+		@media (max-width: 767.98px) { 
+			padding: 10px 0;
+			text-align: center;
+		}
+
+	}
+}

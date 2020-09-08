@@ -1,0 +1,9 @@
+{
+	"jwtkey": "dkjfsna3#Q#$e",
+	"google": {
+		"ID": "886392592610-uptrbelk8l54ubo0k9n9d4h8cmi26u2a.apps.googleusercontent.com",
+		"SECRET": "0YAQ440uJ2BDDNBZgkD2oTmb",
+		"url": "https://lvh.me/api/google/callback"
+	},
+	"host": "lvh.me"
+}

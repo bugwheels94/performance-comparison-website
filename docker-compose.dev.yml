@@ -1,0 +1,22 @@
+version: '3.1'
+services:
+  analytics-server:
+    volumes:
+      - ./analytics-server:/app
+    command: tail -F anything
+    ports:
+      - 5001:5001
+  survey:
+    volumes:
+      - ./:/home/survey
+      - /home/survey/node_modules
+    command: tail -F anything
+    ports:
+      - 8080:8080
+  nginx:
+    volumes:
+     - ./sysadmin/nginx/nginx.dev.conf:/etc/nginx/nginx.conf
+     - ./sysadmin/certificate:/etc/certificate
+     - ./embed/public:/var/www/public
+    ports:
+      - 443:443
